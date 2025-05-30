@@ -83,15 +83,15 @@ export const NumberConverter: React.FC = () => {
                   </tr>
                   <tr className="bg-indigo-50/50">
                     <td className="px-6 py-4 font-medium text-gray-700">Binario</td>
-                    <td className="px-6 py-4 max-w-[220px] truncate whitespace-nowrap text-gray-900">0b{decimalValue.toString(2)}</td>
+                    <td className="px-6 py-4 max-w-[220px] truncate whitespace-nowrap text-gray-900">{decimalValue.toString(2)}</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 font-medium text-gray-700">Octal</td>
-                    <td className="px-6 py-4 max-w-[220px] truncate whitespace-nowrap text-gray-900">0o{decimalValue.toString(8)}</td>
+                    <td className="px-6 py-4 max-w-[220px] truncate whitespace-nowrap text-gray-900">{decimalValue.toString(8)}</td>
                   </tr>
                   <tr className="bg-indigo-50/50">
                     <td className="px-6 py-4 font-medium text-gray-700">Hexadecimal</td>
-                    <td className="px-6 py-4 max-w-[220px] truncate whitespace-nowrap text-gray-900">0x{decimalValue.toString(16).toUpperCase()}</td>
+                    <td className="px-6 py-4 max-w-[220px] truncate whitespace-nowrap text-gray-900">{decimalValue.toString(16).toUpperCase()}</td>
                   </tr>
                 </tbody>
               </table>
