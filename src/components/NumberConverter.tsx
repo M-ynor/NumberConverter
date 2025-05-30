@@ -102,7 +102,7 @@ export const NumberConverter: React.FC = () => {
         </div>
       </div>
       <footer className="fixed bottom-0 left-0 w-full text-center text-black text-sm pb-2">
-        <p>Hecho con ❤️ por Kevin Apataño</p>
+        <p>Hecho con ❤️ por Kevin Apataño.</p>
       </footer>
     </>
   );
